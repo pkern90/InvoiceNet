@@ -36,7 +36,7 @@ def main():
                     help="batch size for training")
     ap.add_argument("--restore", action="store_true",
                     help="restore from checkpoint")
-    ap.add_argument("--data_dir", type=str, default='processed_data/',
+    ap.add_argument("--data_dir", type=str, default='data/processed/',
                     help="path to directory containing prepared data")
     ap.add_argument("--steps", type=int, default=50000,
                     help="maximum number of training steps")
